@@ -58,6 +58,7 @@
             this.numArray = new System.Windows.Forms.NumericUpDown();
             this.bntCreate = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnThongTin = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -90,7 +91,6 @@
             this.radBubble = new System.Windows.Forms.RadioButton();
             this.pnlChosesAlgorithms = new System.Windows.Forms.Panel();
             this.radSelection = new System.Windows.Forms.RadioButton();
-            this.btnThongTin = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel8.SuspendLayout();
@@ -125,7 +125,7 @@
             this.listCode.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listCode.FormattingEnabled = true;
             this.listCode.ItemHeight = 16;
-            this.listCode.Location = new System.Drawing.Point(2, 2);
+            this.listCode.Location = new System.Drawing.Point(-1, 0);
             this.listCode.Margin = new System.Windows.Forms.Padding(2);
             this.listCode.Name = "listCode";
             this.listCode.Size = new System.Drawing.Size(349, 272);
@@ -149,7 +149,7 @@
             // 
             // listIdea
             // 
-            this.listIdea.BackColor = System.Drawing.Color.DimGray;
+            this.listIdea.BackColor = System.Drawing.Color.Gainsboro;
             this.listIdea.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listIdea.Dock = System.Windows.Forms.DockStyle.Top;
             this.listIdea.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -498,6 +498,17 @@
             this.panel1.Size = new System.Drawing.Size(1320, 57);
             this.panel1.TabIndex = 5;
             // 
+            // btnThongTin
+            // 
+            this.btnThongTin.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThongTin.Location = new System.Drawing.Point(1077, 3);
+            this.btnThongTin.Name = "btnThongTin";
+            this.btnThongTin.Size = new System.Drawing.Size(137, 50);
+            this.btnThongTin.TabIndex = 116;
+            this.btnThongTin.Text = "Thông Tin";
+            this.btnThongTin.UseVisualStyleBackColor = true;
+            this.btnThongTin.Click += new System.EventHandler(this.btnThongTin_Click);
+            // 
             // label18
             // 
             this.label18.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -780,7 +791,7 @@
             // 
             // pnlExcution
             // 
-            this.pnlExcution.BackColor = System.Drawing.Color.DarkGray;
+            this.pnlExcution.BackColor = System.Drawing.Color.LightGray;
             this.pnlExcution.Controls.Add(this.label18);
             this.pnlExcution.Controls.Add(this.label17);
             this.pnlExcution.Controls.Add(this.label16);
@@ -821,6 +832,7 @@
             // ExTime
             // 
             this.ExTime.Interval = 1000;
+            this.ExTime.Tick += new System.EventHandler(this.ExTime_Tick);
             // 
             // label7
             // 
@@ -874,17 +886,6 @@
             this.radSelection.Text = "Selection Sort";
             this.radSelection.UseVisualStyleBackColor = true;
             this.radSelection.CheckedChanged += new System.EventHandler(this.radSelection_CheckedChanged);
-            // 
-            // btnThongTin
-            // 
-            this.btnThongTin.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThongTin.Location = new System.Drawing.Point(1077, 3);
-            this.btnThongTin.Name = "btnThongTin";
-            this.btnThongTin.Size = new System.Drawing.Size(137, 50);
-            this.btnThongTin.TabIndex = 116;
-            this.btnThongTin.Text = "Thông Tin";
-            this.btnThongTin.UseVisualStyleBackColor = true;
-            this.btnThongTin.Click += new System.EventHandler(this.btnThongTin_Click);
             // 
             // frmApplication
             // 

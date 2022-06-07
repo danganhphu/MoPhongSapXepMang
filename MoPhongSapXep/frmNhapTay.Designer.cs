@@ -1,6 +1,6 @@
 ﻿namespace MoPhongSapXep
 {
-    partial class frmByHand
+    partial class frmNhapTay
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmByHand));
             this.btnBack = new System.Windows.Forms.Button();
             this.btnApply = new System.Windows.Forms.Button();
             this.pt10 = new System.Windows.Forms.NumericUpDown();
@@ -60,7 +59,6 @@
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBack.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack.ForeColor = System.Drawing.Color.Black;
-            this.btnBack.Image = ((System.Drawing.Image)(resources.GetObject("btnBack.Image")));
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBack.Location = new System.Drawing.Point(75, 216);
             this.btnBack.Name = "btnBack";
@@ -226,7 +224,7 @@
             this.pt1.TabIndex = 34;
             this.pt1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // frmByHand
+            // frmNhapTay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -244,9 +242,9 @@
             this.Controls.Add(this.pt3);
             this.Controls.Add(this.pt2);
             this.Controls.Add(this.pt1);
-            this.Name = "frmByHand";
-            this.Text = "frmByHand";
-            this.Load += new System.EventHandler(this.frmByHand_Load);
+            this.Name = "frmNhapTay";
+            this.Text = "frmNhapTay";
+            this.Load += new System.EventHandler(this.frmNhapTay_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pt10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pt9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pt8)).EndInit();
@@ -261,8 +259,8 @@
 
         }
 
-        #endregion
 
+        #endregion
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnApply;
         private System.Windows.Forms.NumericUpDown pt10;

@@ -53,11 +53,11 @@
     <Compile Include="frmApplication.Designer.cs">
       <DependentUpon>frmApplication.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmByHand.cs">
+    <Compile Include="frmNhapTay.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmByHand.Designer.cs">
-      <DependentUpon>frmByHand.cs</DependentUpon>
+    <Compile Include="frmNhapTay.Designer.cs">
+      <DependentUpon>frmNhapTay.cs</DependentUpon>
     </Compile>
     <Compile Include="frmThongTin.cs">
       <SubType>Form</SubType>
@@ -72,8 +72,8 @@
     <EmbeddedResource Include="frmApplication.resx">
       <DependentUpon>frmApplication.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmByHand.resx">
-      <DependentUpon>frmByHand.cs</DependentUpon>
+    <EmbeddedResource Include="frmNhapTay.resx">
+      <DependentUpon>frmNhapTay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmThongTin.resx">
       <DependentUpon>frmThongTin.cs</DependentUpon>
